@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 50%;
     margin: auto;
     margin-top: 30px;
     display: flex;
@@ -88,17 +88,26 @@ body {
     .btn {
         width: 20%;
     }
+    .container {
+        width: 75%;
+    }
 }
 
 @media (max-width:420px) {
     .btn {
         width: 19%;
     }
+    .container {
+        width: 85%;
+    }
 }
 
 @media (max-width:360px) {
     .btn {
         width: 18%;
+    }
+    .container {
+        width: 95%;
     }
 }
 
